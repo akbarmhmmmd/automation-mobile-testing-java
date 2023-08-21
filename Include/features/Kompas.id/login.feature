@@ -1,5 +1,4 @@
 @akbar-testing @kompas-id @login
-
 Feature: Kompas.id App - Login
 
 	Scenario: User can login with Email and Password
@@ -11,7 +10,7 @@ Feature: Kompas.id App - Login
 		And User input Kata Sandi Field
 		And User tap Lewati on Home Page
 		Then User redirect to Home Page
-		
+	
 	Scenario: User can login with Google
 		Given User on Kompas.id App Startup Page
 		When User tap Lewati on Startup Page

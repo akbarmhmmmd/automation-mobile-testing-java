@@ -75,8 +75,8 @@ class kompasid {
 
 	@When("User select the registered email")
 	def selectEmail() {
-		Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/android.widget.TextView - akbarmhmmmdgmail.com'), 10)
-		Mobile.tap(findTestObject('Object Repository/Kompas.id/android.widget.TextView - akbarmhmmmdgmail.com'), 0)
+		Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/android.widget.TextView - akbartesting321gmail.com'), 10)
+		Mobile.tap(findTestObject('Object Repository/Kompas.id/android.widget.TextView - akbartesting321gmail.com'), 0)
 	}
 
 	@When("User input Email Field")
@@ -98,7 +98,7 @@ class kompasid {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/android.widget.Button - Lewati'), 10)
 		Mobile.tap(findTestObject('Object Repository/Kompas.id/android.widget.Button - Lewati'), 0)
 
-		boolean terapkanButton = Mobile.checkElement(findTestObject('Object Repository/Kompas.id/android.widget.Button - Terapkan'), 10)
+		boolean terapkanButton = Mobile.verifyElementExist(findTestObject('Object Repository/Kompas.id/android.widget.Button - Terapkan'), 10)
 
 		if (terapkanButton == true) {
 			Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/android.widget.Button - Terapkan'), 10)
