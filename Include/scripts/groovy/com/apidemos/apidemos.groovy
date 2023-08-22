@@ -73,10 +73,10 @@ class apidemos {
 				Mobile.waitForElementPresent(findTestObject('Object Repository/API Demos/Text - AccessibilityCustom View'), 0)
 				break;
 			default:
-				throw new Error('option does not exist')	
+				throw new Error('option does not exist')
 		}
 	}
-	
+
 	@When("User tap on (.*)")
 	def tapAction(String tap) {
 		switch (tap) {

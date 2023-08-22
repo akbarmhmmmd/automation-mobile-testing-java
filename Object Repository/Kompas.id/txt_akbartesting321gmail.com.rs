@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - Kompas.id</name>
+   <name>txt_akbartesting321gmail.com</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,39 +12,39 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>a4cfd249-27ee-4dbd-af43-841d4ee6f120</webElementGuid>
+      <webElementGuid>f3a75579-0369-4a0d-9298-688b7a89297d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>f0f766e3-a5f0-4584-b3d9-e39b1e4dd122</webElementGuid>
+      <value>1</value>
+      <webElementGuid>493a3d8f-a273-424a-8f6a-ead2709379ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kompas.id</value>
-      <webElementGuid>a4fe15f9-d5a4-4896-b0ec-60325a339665</webElementGuid>
+      <value>akbartesting321@gmail.com</value>
+      <webElementGuid>c8b5b629-0f9a-43ee-b5af-49a6a91cd3b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>id.kompas.app:id/navigation_bar_item_small_label_view</value>
-      <webElementGuid>5c769582-9c72-46cd-97e7-7ad563fbc587</webElementGuid>
+      <value>com.google.android.gms:id/account_name</value>
+      <webElementGuid>78e4bf1b-7cb9-4a6e-bee4-316f117a0473</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>id.kompas.app</value>
-      <webElementGuid>e4a0a479-82c1-4eda-a249-f28efa931a15</webElementGuid>
+      <value>com.google.android.gms</value>
+      <webElementGuid>df8ef700-9a4a-45cd-9ffd-cc0f7623d535</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ab4b264c-fa7a-47f3-ac5a-e919ee437cd6</webElementGuid>
+      <webElementGuid>fdf5ca11-5bd1-498b-8814-56cbda717784</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a45fa21f-0012-4631-b4a9-c5141e3929b5</webElementGuid>
+      <webElementGuid>3d53d86b-950a-4d05-b6ff-ea09288fa8d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>65e75b19-5fb5-42f8-938c-cfa3cd0fa033</webElementGuid>
+      <webElementGuid>7fc30252-0a6d-4d1d-a883-814c04e3a063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2b22b314-e2eb-4b7e-8398-59919c705e4c</webElementGuid>
+      <webElementGuid>b42317ef-60e4-45c7-abf2-740893927a8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>443c638a-974a-400d-aa77-10e651a265c1</webElementGuid>
+      <webElementGuid>8624af55-795f-48cd-ae87-7d7f3bf2a99b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>725049a6-05e0-424e-84ba-c3cec96179a9</webElementGuid>
+      <webElementGuid>6dfe6d05-93f2-4b5a-b0a7-2256eff240c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>89359b59-dc26-4cd6-920b-088ae00ce2b6</webElementGuid>
+      <webElementGuid>bac59dbd-d6fd-4edc-8b12-6047022f0aed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7a415b73-45d2-4b5c-956e-29fdd00ca664</webElementGuid>
+      <webElementGuid>7a3867c9-bb48-4541-b829-1a148f4e338c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>676ba6bf-b37c-443a-91ed-05d324eb6e9a</webElementGuid>
+      <webElementGuid>1a27ddfe-b1d1-4cd0-bc59-83698ad9c627</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,31 +124,31 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>11073071-c739-4466-8df5-ff47539897dc</webElementGuid>
+      <webElementGuid>f47020a6-9e1f-4389-b650-326313c6ab22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>54</value>
-      <webElementGuid>1cb8bab3-24f3-4d33-ab61-d9c341c66d91</webElementGuid>
+      <value>239</value>
+      <webElementGuid>b8ee9908-12fa-42f1-a73e-5a63d2e3f781</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>2214</value>
-      <webElementGuid>3ae8dd63-786f-4613-a80c-c6e074f33813</webElementGuid>
+      <value>1226</value>
+      <webElementGuid>d47974e2-cd09-4dbc-ac4b-e939ca482539</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>162</value>
-      <webElementGuid>9be0bd9a-dfd8-4964-bc60-375e7d167356</webElementGuid>
+      <value>411</value>
+      <webElementGuid>11490012-99bc-4cc1-9881-0308750e5351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,15 +156,15 @@
       <name>height</name>
       <type>Main</type>
       <value>43</value>
-      <webElementGuid>80a2d4f9-b3eb-41a4-a78b-697ad8805aaf</webElementGuid>
+      <webElementGuid>b0c31739-d406-4fc3-bb4e-679b232cb5d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[54,2214][216,2257]</value>
-      <webElementGuid>a5a3cfd7-c08e-4d00-be2e-217dabdac4aa</webElementGuid>
+      <value>[239,1226][650,1269]</value>
+      <webElementGuid>a22cc184-5ec5-4607-9aa8-7a5a272ebf3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +172,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3da83b76-1ff9-4f0b-9d7c-cabddfeb91c0</webElementGuid>
+      <webElementGuid>a590fea4-1849-470d-bd7c-7878c960b82e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</value>
-      <webElementGuid>de22f867-2965-42fb-9243-8d5fe7a135e3</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]</value>
+      <webElementGuid>d6dbbda9-712f-447f-9b3b-0dcb72053e18</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Kompas.id' or . = 'Kompas.id') and @resource-id = 'id.kompas.app:id/navigation_bar_item_small_label_view']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'akbartesting321@gmail.com' or . = 'akbartesting321@gmail.com') and @resource-id = 'com.google.android.gms:id/account_name']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

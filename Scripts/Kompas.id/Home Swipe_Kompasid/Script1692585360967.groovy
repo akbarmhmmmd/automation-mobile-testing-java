@@ -17,5 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFolderWithTags('Include/features/Kompas.id', ((['@burger']) as String[]))
+Mobile.startApplication(GlobalVariable.appPath, true)
+
+Mobile.tap(findTestObject('Kompas.id/btn_NantiSaja'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Kompas.id/nav_ePaper'), 0)
+
+Mobile.tap(findTestObject('Kompas.id/btn_LewatiHomePage'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Kompas.id/nav_Buku'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Kompas.id/nav_Akun'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Kompas.id/txt_Akun'), 3)
+
+Mobile.tap(findTestObject('Kompas.id/nav_Kompas.id'), 0)
+
+Mobile.tap(findTestObject('Kompas.id/btn_BeritaUtama'), 0)
+
+Mobile.closeApplication()
+
+Mobile.startApplication('C:\\Users\\akbar\\Katalon Studio\\BDD Mobile Testing\\androidapp\\app.apk', true)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Kompas.id/nav_BeritaUtama_On'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Kompas.id/nav_Terbaru_On'), 0)
+
+Mobile.closeApplication()
 

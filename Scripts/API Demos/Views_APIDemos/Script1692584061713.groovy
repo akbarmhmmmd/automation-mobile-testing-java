@@ -17,5 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFolderWithTags('Include/features/Kompas.id', ((['@burger']) as String[]))
+Mobile.startApplication(GlobalVariable.appPath, true)
+
+Mobile.tap(findTestObject('Object Repository/API Demos/android.widget.TextView - Views'), 0)
+
+Mobile.scrollToText('Spinner')
+
+Mobile.tap(findTestObject('Object Repository/API Demos/android.widget.TextView - Spinner'), 0)
+
+Mobile.tap(findTestObject('Object Repository/API Demos/android.widget.Spinner'), 0)
+
+Mobile.tap(findTestObject('Object Repository/API Demos/android.widget.CheckedTextView - orange'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/API Demos/android.widget.TextView - orange'), 0)
+
+Mobile.tap(findTestObject('Object Repository/API Demos/android.widget.Spinner (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/API Demos/android.widget.CheckedTextView - Venus'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/API Demos/android.widget.TextView - Venus'), 0)
+
+Mobile.closeApplication()
 

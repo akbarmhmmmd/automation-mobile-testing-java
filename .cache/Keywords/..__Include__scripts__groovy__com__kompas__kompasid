@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "74DBDF3206F4CBD475F3456E1821E10A",
+  "keywordFileContentHash": "07A1AAE9FE231F174B71D11364FFA109",
   "keywordClasses": [
     {
       "name": "com.kompas.kompasid",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

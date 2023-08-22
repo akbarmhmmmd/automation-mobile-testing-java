@@ -17,5 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFolderWithTags('Include/features/Kompas.id', ((['@burger']) as String[]))
+Mobile.startApplication(GlobalVariable.appPath, false)
+
+Mobile.waitForElementPresent(findTestObject('Kompas.id/btn_Lanjut'), 3)
+
+device_Height = Mobile.getDeviceHeight()
+
+device_Width = Mobile.getDeviceWidth()
+
+int startY = device_Height / 2
+
+int endY = startY
+
+int startX = device_Width * 0.70
+
+int endX = device_Width * 0.30
+
+Mobile.swipe(startX, startY, endX, endY)
+
+Mobile.swipe(startX, startY, endX, endY)
+
+Mobile.swipe(startX, startY, endX, endY)
+
+Mobile.verifyElementExist(findTestObject('Kompas.id/btn_Lanjut'), 3)
+
+Mobile.closeApplication()
 

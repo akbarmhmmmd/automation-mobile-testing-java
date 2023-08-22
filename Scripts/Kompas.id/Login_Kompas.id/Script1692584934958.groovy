@@ -27,27 +27,45 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/btn_Mas
 
 Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Masuk'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kompas.id/btn_LanjutkanGoogle'), 10)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/btn_MasukEmail'), 10)
 
-Mobile.tap(findTestObject('Kompas.id/btn_LanjutkanGoogle'), 10)
+Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_MasukEmail'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/txt_akbarmhmmmdgmail.com'), 10)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/field_Email'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Kompas.id/txt_akbarmhmmmdgmail.com'), 0)
+Mobile.setText(findTestObject('Kompas.id/field_Email'), GlobalVariable.email, 0)
+
+Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Lanjutkan'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/field_KataSandi'), 10)
+
+Mobile.setText(findTestObject('Kompas.id/field_KataSandi'), GlobalVariable.password, 0)
+
+Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_MasukLogin'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/btn_LewatiHomePage'), 10)
 
 Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_LewatiHomePage'), 0)
 
-boolean terapkanButton = Mobile.verifyElementExist(findTestObject('Object Repository/Kompas.id/btn_Terapkan'), 10)
+Mobile.checkElement(findTestObject('Kompas.id/btn_Terapkan'), 10)
 
-if (terapkanButton == true) {
-    Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/btn_Terapkan'), 10)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/btn_Terapkan'), 10)
 
-    Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Terapkan'), 0)
-}
+Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Terapkan'), 0)
 
 Mobile.verifyElementExist(findTestObject('Kompas.id/img_Kompas.id'), 10)
+
+Mobile.waitForElementPresent(findTestObject('Kompas.id/btn_LanjutkanGoogle'), 10)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/txt_akbarmhmmmdgmail.com'), 10)
+
+Mobile.tap(findTestObject('Object Repository/Kompas.id/txt_akbarmhmmmdgmail.com'), 0)
+
+Mobile.startApplication('C:\\Users\\akbar\\Katalon Studio\\BDD Mobile Testing\\androidapp\\app.apk', true)
+
+Mobile.swipe(200, 200, 400, 200)
+
+Mobile.swipe(400, 200, 200, 200)
 
 Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_BeritaUtama'), 0)
 
@@ -59,41 +77,29 @@ Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_FavoritPembaca'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Terpopuler'), 0)
 
-Mobile.closeApplication()
+device_height = Mobile.getDeviceHeight()
 
-Mobile.startApplication('C:\\Users\\akbar\\Katalon Studio\\BDD Mobile Testing\\androidapp\\app.apk', true)
+device_width = Mobile.getDeviceWidth()
 
-Mobile.scrollToText('Pelajari Lebih Lanjut')
+int startY = device_height / 2
 
-Mobile.tap(findTestObject('Object Repository/Kompas.id/android.widget.LinearLayout'), 0)
+int endY = startY
 
-Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_burger'), 0)
+int startX = device_width * 0.3
 
-Mobile.scrollToText('Fotografi')
+int endX = device_width * 0.7
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/btn_Fotografi'), 3)
-
-Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Fotografi'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/txt_Fotografi'), 3)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Kompas.id/txt_Fotografi'), 3)
+Mobile.swipe(startX, startY, endX, endY)
 
 Mobile.closeApplication()
 
 Mobile.startApplication('C:\\Users\\akbar\\Katalon Studio\\BDD Mobile Testing\\androidapp\\app.apk', true)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/txt_pageFotografi'), 3)
-
-Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_backView'), 0)
-
 Mobile.closeApplication()
 
 Mobile.startApplication('C:\\Users\\akbar\\Katalon Studio\\BDD Mobile Testing\\androidapp\\app.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_Muda'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Kompas.id/txt_pageMuda'), 3)
+Mobile.tap(findTestObject('Object Repository/Kompas.id/btn_backStartup'), 0)
 
 Mobile.closeApplication()
 
